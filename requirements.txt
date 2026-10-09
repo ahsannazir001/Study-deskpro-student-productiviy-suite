@@ -1,0 +1,18 @@
+# StudyDesk Pro - Python Dependencies
+# Python 3.10+ required
+#
+# Install:  pip install -r requirements.txt
+# Run:      python main.py
+# Build:    build_exe.bat
+
+# GUI framework (standard library, listed for clarity)
+# tkinter  -- included with Python
+
+# Charting for dashboard and expense charts
+matplotlib>=3.7.0
+
+# Image processing for icon loading and chart rendering
+Pillow>=10.0.0
+
+# Windows EXE packaging
+pyinstaller>=6.0.0
